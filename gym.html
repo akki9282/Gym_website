@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitnees_gym</title>
+    <link rel="icon" href="images/gym_logo2.png">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: url(images/fitnees_gym.jpg);
+            height: 2800px;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .logo img {
+            filter: invert(100%);
+            margin-left: 186px;
+        }
+
+        .logo {
+            font-family: 'Baloo Bhai', cursive;
+            color: white;
+            font-size: 100px;
+            /* border: 2px solid red; */
+            display: inline-block;
+            width: 1000px;
+            position: relative;
+            top: 33px;
+        }
+
+        .nav {
+            position: relative;
+            top: 17px;
+            color: white;
+            font-size: 100px;
+            /* border: 2px solid red; */
+            width: 39%;
+            display: inline-block;
+            position: absolute;
+            right: 27%;
+
+
+        }
+
+        .nav li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        .nav ul li a {
+            font-family: 'Baloo Bhai', cursive;
+            text-decoration: none;
+            color: white;
+            padding: 8px 28px;
+            font-size: 80px;
+        }
+
+        .nav a:hover,
+        .nav a.active {
+            text-decoration: underline;
+            color: rgb(180, 170, 170);
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            background-color: rgb(148 156 154);
+            color: white;
+            font-size: 63px;
+            border-radius: 23px;
+            padding: 20px 40px;
+            margin: 62px 28px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(96, 94, 97);
+        }
+
+        .contact {
+            color: white;
+            font-size: 155px;
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 41px;
+            right: 34px;
+            margin-right: -37px;
+            display: inline-block;
+            width: 888px;
+        }
+
+        .form {
+            /* border: 2px solid red; */
+            height: 1000px;
+            width: 2000px;
+            position: absolute;
+            right: 1px;
+
+        }
+
+        .form h2 {
+            font-family: 'Baloo Bhai', cursive;
+            margin: -9px;
+            color: white;
+            text-align: center;
+            font-size: 137px;
+            color: #968d8d;
+        }
+
+
+        .form form {
+            position: relative;
+            left: 473px;
+            margin-top: -39px;
+        }
+
+        .form input {
+            font-family: 'Baloo Bhai', cursive;
+            color: rgb(97, 95, 95);
+            text-align: center;
+            font-size: 61px;
+            padding: 24px 158px;
+            margin: 55px;
+            display: block;
+            border-radius: 53px;
+        }
+
+        .submit {
+            position: relative;
+            left: 293px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="images/gym_logo.png" alt="">
+    </div>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Timetable</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Branches</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contact">
+        <button class="btn" onclick="alert('+919096888819')">call us</button>
+        <button class="btn" onclick="alert('akashpanari@gmail.com')">email us</button>
+    </div>
+    <div class="form">
+        <h2>Pre-Register to join gym</h2>
+        <div class="form1">
+            <form action="#">
+                <input type="text" placeholder="Your Full Name">
+                <input type="number" placeholder="Age">
+                <input type="text" placeholder="Enter Your Gender">
+                <input type="text" placeholder="Enter Your City">
+                <div class="submit">
+                    <input type="submit" onclick="alert('Your entery is register')">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
